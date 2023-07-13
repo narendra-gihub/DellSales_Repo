@@ -3,6 +3,7 @@ public with sharing class LeadController {
         lead ld = new lead();
         ld.firstname = 'test';
         ld.lastname='lead';
+        ld.phone='8798798798';
         insert ld;
     }
 }
